@@ -1,0 +1,135 @@
+nav {
+    background-color: #FFCC5C;
+    padding: 25px;
+    font-family: 'Unkempt', cursive;
+    font-size: 20px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+nav a {
+    width: 60px;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.menu-right a:hover , .menu-left a:hover {
+    background-color: bisque;
+}
+
+.menu-right, .menu-left {
+    margin:10px;
+}
+
+a {
+    text-transform: none;
+}
+
+header {
+    background-color: #FF6F69;
+    padding: 30px;
+    text-align: center;
+    font-family: 'Reenie Beanie', cursive;
+    font-size: 20px;
+    color: #d64161;
+}
+
+h3{
+    font-family: 'Podkova', serif;
+}
+
+#photos-slide {
+    background-color: #96CEB4;
+    padding: 25px;
+}
+
+img {
+    width: 450px;
+    height: 250px;
+
+}
+.school-exp {
+    background-color: #FA9A85;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.school-riw{
+    border-left: 1px solid black;
+    margin-left: 30px;
+    position: relative;
+}
+
+.each-school{
+    padding: 30px;
+
+}
+.icon {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 1;
+    left: -37px;
+}
+
+.logo {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+}
+.event-date , .event-name {
+    font-family: 'Unkempt', cursive;
+}
+
+.event-name {
+    padding-left: 20px;
+}
+
+.good-parent {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+footer {
+    background-color: #00ABA9;
+
+}
+
+.data {
+    display: block;
+}
+
+.footer-left {
+    display: flex;
+    flex-direction: column;
+
+}
+
+#name , #email , #comment {
+    margin-top: 10px;
+    padding: 8px;
+    width: 300px;
+
+}
+
+#comment {
+    height: 20px;
+    padding: 30px;
+}
+
+button {
+    margin-top: 10px; 
+}
+
+.footer-right {
+    text-align: right;
+    float: right;
+    justify-content: space-between;
+
+}
